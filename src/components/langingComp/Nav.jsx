@@ -3,7 +3,7 @@ import logo from '../../assets/bg-remove.png'
 
 function Nav() {
   return (
-    <header className="w-full border-b border-gray-200 bg-white">
+    <header className="w-full border-b border-gray-200 fixed top-0 z-50 bg-white/70">
       <div className="max-w-7xl mx-auto px-8 py-2 flex items-center">
         
         {/* Logo */}
