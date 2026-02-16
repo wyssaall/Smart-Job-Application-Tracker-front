@@ -1,7 +1,7 @@
 import React from 'react';
 import hero from '../../assets/images/hero.jpg';
 
-function Hero() {
+function Hero() { 
   return (
     <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 bg-gray-50">
       

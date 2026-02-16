@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../assets/images/bg-remove.png'
-
+import { Link } from 'react-router-dom'
 function Nav() {
   return (
     <header className="w-full border-b border-gray-200 fixed top-0 z-50 bg-white/70">
@@ -17,12 +17,12 @@ function Nav() {
         <div className="flex-1"></div>
 
         <nav className="flex gap-6 items-center">
-          <button className="border-red-700 border-2 px-5 py-1.5 rounded-lg font-medium cursor-pointer text-red-700 hover:bg-red-700 hover:text-white transition shadow-sm active:opacity-80">
+          <Link to="/login" className="border-red-700 border-2 px-5 py-1.5 rounded-lg font-medium cursor-pointer text-red-700 hover:bg-red-700 hover:text-white transition shadow-sm active:opacity-80">
             Login
-          </button>
-          <button className="bg-red-700 text-white px-5 py-2 rounded-lg font-medium cursor-pointer hover:bg-red-800 transition shadow-sm active:opacity-80">
+          </Link >
+          <Link to="/register" className="bg-red-700 text-white px-5 py-2 rounded-lg font-medium cursor-pointer hover:bg-red-800 transition shadow-sm active:opacity-80">
             Signup
-          </button>
+          </Link>
         </nav>
 
       </div>
