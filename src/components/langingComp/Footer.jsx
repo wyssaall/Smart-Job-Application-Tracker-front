@@ -15,7 +15,7 @@ function Footer() {
             Organize your job search
           </p>
           <p className="text-sm text-gray-500 mt-4">
-            © 2026 JobTracker. All rights reserved.
+            © 2026 TrackHire. All rights reserved.
           </p>
         </div>
 

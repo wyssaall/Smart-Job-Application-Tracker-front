@@ -1,5 +1,6 @@
 import React from 'react';
 import hero from '../../assets/images/hero.jpg';
+import { Link } from 'react-router-dom';
 
 function Hero() { 
   return (
@@ -18,12 +19,12 @@ function Hero() {
         </p>
 
         <div className="flex gap-4 mt-4">
-          <button className="border-red-700 border-2 px-6 py-2 rounded-lg font-semibold text-red-700 hover:bg-red-700 hover:text-white transition shadow-md active:opacity-80 cursor-pointer">
+          <Link to="/login" className="border-red-700 border-2 px-6 py-2 rounded-lg font-semibold text-red-700 hover:bg-red-700 hover:text-white transition shadow-md active:opacity-80 cursor-pointer">
             Login
-          </button>
-          <button className="bg-red-700 text-white px-6 py-2 rounded-lg font-semibold hover:bg-red-800 transition shadow-md active:opacity-80 cursor-pointer">
+          </Link>
+          <Link to="/register" className="bg-red-700 text-white px-6 py-2 rounded-lg font-semibold hover:bg-red-800 transition shadow-md active:opacity-80 cursor-pointer">
             Get Started
-          </button>
+          </Link>
         </div>
       </div>
 
