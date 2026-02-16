@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../../components/langingComp/Nav.jsx';
 import Hero from '../../components/langingComp/hero.jsx';
 import Problem from '../../components/langingComp/Problem.jsx';
+import Features from '../../components/langingComp/Features.jsx';
 
 function LanginPage() {
   return (
@@ -10,6 +11,7 @@ function LanginPage() {
         <main className="pt-20"> 
           <Hero />
           <Problem />
+          <Features />
         </main>
     </div>
   )
